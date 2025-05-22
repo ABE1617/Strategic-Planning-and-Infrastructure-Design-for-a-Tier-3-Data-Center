@@ -1,0 +1,65 @@
+﻿Task Name,Start Date,Due Date,Dependencies,Duration (Days),Baseline Start,Baseline Finish,Variance,Predecessors,Duration
+Project Management,11/14/24,12/03/24,,5,11/24/24,01/05/25,23d,,14d
+Scheduling,11/14/24,11/19/24,,5,11/24/24,12/07/24,13d,,4d
+Stakeholder Engagement,11/22/24,11/25/24,Scheduling,5,12/08/24,12/22/24,19d,,2d
+Procurement Management,11/26/24,11/29/24,Stakeholder Engagement,5,12/23/24,01/05/25,25d,,4d
+Financial Oversight,11/30/24,12/03/24,,,,,,,3d
+Requirements Definition,12/04/24,01/02/25,Project Management,10,01/06/25,01/19/25,11d,,22d
+Business Requirements,12/14/24,12/23/24,,5,01/06/25,01/10/25,13d,,7d
+Technical Requirements,12/24/24,01/02/25,Business Requirements,5,01/11/25,01/19/25,11d,,8d
+Design and Planning,01/03/25,01/31/25,Requirements Definition,20,01/20/25,02/16/25,10d,,21d
+Architectural Design,01/20/25,02/03/25,,10,01/20/25,02/02/25,-1d,,11d
+Cooling System Design,02/03/25,02/17/25,Architectural Design,10,02/03/25,02/16/25,-1d,,11d
+Risk Management (FMECA),02/06/25,02/18/25,,,,,,,9d
+Land Acquisition & Permits,02/18/25,04/21/25,Design and Planning,20,02/17/25,03/15/25,-26d,,45d
+Locating Suitable Land,02/17/25,03/03/25,,10,02/17/25,03/01/25,-1d,,11d
+Purchasing the Land,03/02/25,03/10/25,Locating Suitable Land,5,03/02/25,03/08/25,-1d,,7d
+Acquiring Land Papers,03/09/25,03/17/25,Purchasing the Land,5,03/09/25,03/15/25,-1d,,7d
+Building Permits,03/16/25,03/24/25,Acquiring Land Papers,10,,,,,7d
+Construction,04/20/25,11/17/25,Land Acquisition & Permits,90,03/16/25,07/26/25,-81d,,152d
+Site Preparation,03/16/25,03/31/25,,15,03/16/25,03/30/25,-1d,,12d
+Building Construction,03/31/25,06/13/25,Site Preparation,60,03/31/25,06/27/25,9d,,55d
+Security and Accessibility,05/28/25,06/12/25,Building Construction,15,06/28/25,07/12/25,21d,,12d
+Renewable Energy Grid Connection,05/28/25,06/11/25,,,,,,,11d
+Water Supply Systems,06/12/25,07/18/25,,,,,,,27d
+Cooling and Power Systems,06/22/25,07/18/25,,,,,,,21d
+Health and Safety Compliance,07/20/25,07/28/25,,,,,,,7d
+Backp Power Systems,09/18/25,12/08/25,,,,,,,58d
+Installing Backup Power Systems,07/20/25,07/25/25,,,,,,,6d
+Testing bckup systems,07/26/25,08/01/25,,,,,,,6d
+Sewer and Waste Management,12/09/25,01/19/26,Overlaps with Construction,4,03/30/25,04/27/25,-191d,,30d
+Sewer Connection Design,03/30/25,04/07/25,,7,03/30/25,04/06/25,-1d,,7d
+Sewer Connection Installation,04/07/25,04/17/25,Sewer Connection Design,10,04/07/25,04/17/25,-1d,,9d
+Sewer Connection Testing,04/18/25,04/28/25,Sewer Connection Installation,10,04/18/25,04/27/25,-1d,,7d
+Waste Management,04/28/25,12/19/25,Sewer Connection Testing,4,,,,,170d
+Acquisition,12/19/25,01/08/26,Construction,2,07/28/25,08/10/25,-109d,,15d
+Site Contracts,07/28/25,08/04/25,,5,07/28/25,08/03/25,-1d,,6d
+Hardware Procurement,08/04/25,08/11/25,Site Contracts,7,08/04/25,08/10/25,-1d,,6d
+Communication Services,08/11/25,01/08/26,Hardware Procurement,7,08/11/25,08/18/25,-104d,,109d
+"Software Design, Installation, and IT Infrastructure",01/09/26,05/08/26,Acquisition,20,08/11/25,09/05/25,-176d,,86d
+System Integration,08/11/25,08/18/25,,7,08/11/25,08/18/25,-1d,,6d
+IT Infrastructure Deployment,08/19/25,08/28/25,Software Design,10,08/19/25,08/28/25,-1d,,8d
+Software Testing,09/06/25,05/08/26,System Integration,7,09/06/25,09/12/25,-171d,,176d
+Operations Setup,05/09/26,07/08/26,"Software Design, Installation, and IT Infrastructure",3,09/06/25,09/26/25,-204d,,44d
+Workforce Recruitment,09/06/25,09/12/25,,7,09/06/25,09/12/25,-1d,,6d
+Energy Optimization,09/13/25,09/19/25,Workforce Recruitment,7,09/13/25,09/19/25,-1d,,6d
+Security Operations,09/20/25,05/08/26,Energy Optimization,7,09/20/25,09/26/25,-161d,,166d
+Testing and Commissioning,06/09/26,09/22/26,Operations Setup,15,09/27/25,10/17/25,-243d,,76d
+System Testing,09/27/25,10/06/25,,7,09/27/25,10/05/25,-1d,,7d
+Compliance Checks,10/06/25,10/13/25,System Testing,7,10/06/25,10/12/25,-1d,,6d
+Operational Continuity,10/13/25,10/17/25,Compliance Checks,5,10/13/25,10/17/25,-1d,,5d
+Final Risk Assessment,10/18/25,09/22/26,Operational Continuity,5,,,,,243d
+Post-Handover Support,09/23/26,12/11/26,Testing and Commissioning,10,10/18/25,10/31/25,-291d,,58d
+Documentation,10/18/25,10/24/25,,5,10/18/25,10/24/25,-1d,,6d
+Technical Support,10/25/25,10/31/25,Documentation,5,10/25/25,10/31/25,-1d,,6d
+Regular Maintenance,10/25/25,10/31/25,Technical Support,5,10/25/25,10/31/25,-1d,,6d
+Performance Monitoring,10/25/25,10/31/25,Regular Maintenance,5,10/25/25,10/31/25,-1d,,6d
+Stakeholder Communication,10/25/25,12/11/26,Performance Monitoring,5,10/25/25,10/31/25,-291d,,296d
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
