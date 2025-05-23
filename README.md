@@ -142,6 +142,12 @@ The Tangier Data Center will:
 - Serve as a **technological hub** for Morocco’s digital future
 
 ---
+## 🧠 Team Members:
+### - Alili Mohamed Baha Eddine
+### - Alizouaoui Zakaria
+### - Belbati Aness
+### - Babaci Yacine
+---
 
 ## 🏁 Conclusion
 
@@ -149,18 +155,4 @@ This project offers a blueprint for building **sustainable, secure, and scalable
 
 > We aim to make Tangier a digital gateway between Africa, Europe, and the world.
 
----
 
-## 📘 License
-
-This project documentation is provided for academic and professional reference. All original content is © 2025 DATARASOV Group.
-
----
-
-## 📩 Contact
-
-For more information, partnership opportunities, or to request full technical documentation:
-
-📧 **project@datacenter-datarasov.org**
-
----
